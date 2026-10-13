@@ -1,0 +1,33 @@
+body{background-color:lightcyan;font-family:Arial;}
+
+#main{width:700px;margin:auto;padding:10px;background-color:white;
+overflow: auto;}
+
+#header{background-color:paleturquoise;border:solid powderblue;padding:10px;text-align:right;color:lightseagreen;}
+
+#friends{width:180px;float:left;background-color:turquoise;border:solid teal;margin:5px;padding:10px;box-sizing:border-box;color:teal;}
+#content{width:500px;float:right;}
+
+.box{background-color:lightcyan;border:solid powderblue;margin:5px;padding:5px;overflow:auto;color:cadetblue;}
+.box p {
+    color: red;
+}
+.box p span {
+    color: red;
+}
+#friends li {
+    color: red;
+}
+
+#friends li:nth-child(2) {
+    color: white;
+}
+h2{font-family:Arial;font-weight:normal;color:lightseagreen;}
+
+h3{font-weight:normal;color:lightseagreen;}
+
+img{width:140px;height:100px;float:right;margin:5px;}
+
+span{color:lightseagreen;font-weight:bold;}
+
+.clear{clear:both;}
